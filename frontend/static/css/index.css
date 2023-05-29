@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+body, html, #App {
+    background-color: #EFEFEF;
+    height: 100%;
+}
+
+
+body {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+
+.text_center {
+    text-align: center;
+}
+
+
+
+.loader {
+    width: 80px;
+    margin: 0 auto;
+}
+
+
+.min_height {
+    min-height: 75vh;
+
+}
+.wrapper {
+    max-width: 1180px;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    background-color: #222;
+}
+
+.links {
+    display: flex;
+    align-self: center;
+}
+
+.links li a {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.links li a:hover {
+    color: #ffbb33
+}
+
+.links li + li {
+    margin-left: 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_icons {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.footer_icons ul li a{
+    color: #fff
+
+}
+
+
+.footer_icons ul li + li{
+    margin-left: 15px;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+.footer_center {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer_copy {
+    display: inline-block;
+}
+.footer_copy p {
+    color: #ffbb33;
+}
+
+.footer_copy p span {
+    color: #fff;
+}
+
+.link_btn {
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #ddd;
+    transition: 0.3s;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 5px;
+}
+.link_btn:hover {
+    color: #ffbb33;
+
+}
+
+
+
+/* MESSAGE */
+
+.message {
+    width: 25%;
+    padding: 16px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* HOME */
+
+
+.home_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.home_container h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+.home_container h1 span {
+    color: #ffbb33;
+}
+
+.home_container p {
+    margin-bottom: 10px;
+    color: #7b7b7b;
+    font-size: 18px
+}
+
+.home_container img {
+    width: 450px
+}
+
+
+/* INPUT */
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form_control label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form_control input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
+
+.form_control input:focus {
+    outline: none;
+}
+
+.form_control select {
+    padding: 10px;
+    border: none;
+}
+
+.submit_btn {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+.submit_btn:hover {
+    color: #ffbb33;
+}
+
+
+
+
+
+/* PROJECT FORM */
+
+.form {
+    width: 100%;
+    margin: 20px 0;
+
+}
+
+
+
+
+
+
+
+/* NEW PROJECT */
+
+.new_project_container {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+/* PROJECT CARD */
+
+
+.project_card {
+    padding: 16px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px;
+}
+
+.project_card h4 {
+    background-color: #222;
+    color: #ffbb33;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.project_card p {
+    margin-bottom: 10px;
+    color: #7b7b7b;
+    word-wrap: break-word;
+}
+
+
+
+
+.project_card p span {
+    color: #666666;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.category_type span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+.category_type .Infra{
+    background-color: #ffaebc;
+}
+
+.category_type .Desenvolvimento{
+    background-color: #a0e7e5;
+}
+
+.category_type .Design {
+    background-color: #b4f8c8;
+}
+
+.category_type .Planejamento{
+    background-color: #fbe7c6;
+}
+
+.category_type .banco_dados{
+    background-color: #ffff87;
+}
+
+
+.project_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_card_actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.project_card_actions a, button {
+    margin: 5px 0;
+    color: #222;
+    background-color: #ffbb33;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+    width: 45%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.project_card_actions a:hover, button:hover {
+    color: #ffbb33;
+    background-color: #222;
+}
+
+
+
+
+
+
+/* PROJECTS */
+
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 320px));
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* PROJECT */
+
+.project_details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+.project_details h2 {
+    background-color: #222222;
+    color: #ffbb33;
+    padding: 10px;
+}
+
+.project_details h2, button {
+    margin: 10px 0;
+}
+
+.show_form_btn {
+    width: 25%;
+    min-width: 115px;
+}
+
+
+.project_info {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.project_info p{
+    margin: 10px 0;
+}
+
+
+.project_info p span{
+    font-weight: bold;
+}
+
+
+.project_form_container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+/* SERVICES */
+
+.service_form {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service_form h2 {
+    background-color: #222222;
+    color: #ffbb33;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.service_form form {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
