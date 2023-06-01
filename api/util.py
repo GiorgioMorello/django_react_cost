@@ -11,7 +11,6 @@ def setting_new_project_cost(project, new_service_cost):
         new_project_cost = float(project.cost) + float(new_service_cost)
         if checking_cost_and_budget(new_project_cost, project_buget):
             project.cost = new_project_cost
-            print(project.cost)
             project.save()
             return True
 
@@ -32,7 +31,6 @@ def setting_new_project_cost(project, new_service_cost):
 
 def checking_cost_and_budget(new_project_cost, project_budget):
     if new_project_cost > project_budget:
-        print('Orçamento ultrapassado')
         return False
 
     return True

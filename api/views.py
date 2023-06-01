@@ -21,7 +21,6 @@ class CreateProject(APIView):
     serializer_class = ProjectsSerializer
 
     def post(self, r):
-        print(r.data)
         valid_serializer = {'name': r.data['name'],
                             'budget': float(r.data['budget']),
                             'category': r.data['category']['id']
@@ -64,7 +63,7 @@ class CreateProject(APIView):
 
 class AllProjects(APIView):
 
-    def get(r):
+    def get(self, r):
         queryset = get_all_projects(Project.objects.all())
         return Response(queryset)
 
