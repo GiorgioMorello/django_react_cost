@@ -1,8 +1,5 @@
 media
 .idea
-migrations
-/api/migrations/
-/frontend/migrations
 
 
 # Byte-compiled / optimized / DLL files
