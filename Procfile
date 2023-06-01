@@ -1,0 +1,1 @@
+web: python manage.py migrate && gunicorn projeto_cost.wsgi --log-file
