@@ -11,30 +11,28 @@
   
   <br>
   
+  ![criar](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/ea44d3a3-b95e-44f5-9c46-e0d9695a307c)
+
   
-  ![criar](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/369c5ad7-fac1-470b-9515-37a8b4dea5c3)
+  <br>
+  
+  ![projects](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/300e1287-039c-49fd-b0e7-57610b61bae4)
+
+ 
+  <br>
+  
+  ![project](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/dcd9f2f0-9138-41e9-ba10-649f6a524d9e)
+
+  <br>
+  
+  ![editar](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/635d5e24-5cc2-4d29-8f18-4ef64c8ecf44)
   
   <br>
   
   
-  ![projects](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/6242ae6b-be68-4df3-aa14-7691a59b3460)
   
   <br>
   
-  ![project](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/a984530a-53fd-4844-9a53-aae4767ceede)
-  
-  <br>
-  
-  ![editar](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/78189885-95fb-4950-881b-f24d2d580a09)
-  
-  <br>
-  
-  
-  ![add_service](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/31a4da74-bf8f-4317-b3c9-516a5470a5d1)
-  
-  <br>
-  
-  ![services](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/45b38662-3219-4c1a-8eef-ec798000b887)
 
   
 
