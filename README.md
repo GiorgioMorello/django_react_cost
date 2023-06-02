@@ -2,9 +2,12 @@
   <h1>Projeto Cost feito em React + Django</h1>
   <h2>Cost - Gerenciador de projetos</h2>
   
-  <h3>Live server: https://djangoreactcost-production.up.railway.app/</h3>
+  
+  
 </div>
 
+<h3>Live server: https://djangoreactcost-production.up.railway.app/</h3>
+<br>
 
 <div align="center">
   
