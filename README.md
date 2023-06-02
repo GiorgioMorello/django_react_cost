@@ -29,10 +29,12 @@
   
   <br>
   
-  
+  ![add_service](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/e21ca657-5c48-4f31-9e84-334d4a06dd2c)
+
   
   <br>
   
+![services](https://github.com/GiorgioMorello/django_react_cost/assets/99151447/3b16d1be-7015-4b6b-8678-df25ff87b907)
 
   
 
